@@ -154,3 +154,22 @@
     
 ![Screenshot from 2024-02-25 16-38-47](https://github.com/Bhavin0099/elasticsearch/assets/153531232/1082fe94-9170-4f89-af81-de5963c4caec)
 
+<h3>To Check all the data that you have indexed</h3>
+
+<h3>Syntax:</h3>
+
+    GET index_name/_search
+    {
+     "query": {
+      "match_all": {}
+    }
+    }
+
+<h3>Index</h3>
+
+    GET favorite_ice-cream/_search
+    {
+     "query": {
+       "match_all": {}
+    }
+    }
