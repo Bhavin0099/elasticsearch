@@ -117,8 +117,8 @@
     
 ![Screenshot from 2024-02-25 16-12-31](https://github.com/Bhavin0099/elasticsearch/assets/153531232/dc8954cc-49d6-4ce1-9c05-8a886dbe4be5)
 
-<h3>U- Update</h3>
 <h4>Update a document</h4>
+<p>Here, in a json object make sure that you have "doc" as a context.</p>
 
 <h3>Syntax:</h3>
 
